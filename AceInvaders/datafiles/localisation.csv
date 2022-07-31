@@ -1,0 +1,21 @@
+menu_version,Pre-Alpha v{a},Pre-Alpha v{a},プレアルファv{a}
+menu_start,Play,Spielen,スタート
+menu_back,Back,Zurück,戻る
+menu_exit,Exit,Beenden,終了
+menu_settings,Settings,Einstellungen,設定
+
+menu_lang,Language [A/文],Sprache [A/文],言語 [A/文]
+menu_lang_en,English,Englisch (English),英語 (English)
+menu_lang_de,German (Deutsch),Deutsch,ドイツ語 (Deutsch)
+menu_lang_jp,Japanese (日本語),Japanisch (日本語),日本語
+
+menu_audio,Audio,Audio,オーディオ
+menu_audio_master_+,Volume +,Lautstärke +,ボリューム+
+menu_audio_master_-,Volume -,Lautstärke -,ボリューム-
+
+menu_video,Video,Video,ビデオ
+menu_video_fullscreen,Fullscreen,Vollbild,フルスクリーン
+
+menu_game_home,Return to title,Zurück zum Titel,タイトルに戻る
+
+gamemode_endless,Endless,Endlos,エンドレス

@@ -1,0 +1,64 @@
+//get input
+up = keyboard_check_pressed(vk_up)
+dn = keyboard_check_pressed(vk_down)
+ac = keyboard_check_pressed(vk_enter)
+//store no. opts
+op_length=array_length(option[menu])
+//move through menu
+pos+=dn-up
+if up or dn{audio_play_sound(aud_menu_select,1,0)} 
+if pos>=op_length{pos=0}
+if pos<0{pos=op_length-1}
+if room != titleroom and menu == 0{
+	menu = 5
+}
+//use opts
+if ac{
+	var level = menu
+	audio_play_sound(aud_menu_confirm,1,0)
+	switch(menu){
+		//main
+		case 0:
+			switch(pos){
+				case 0: instance_deactivate_object(id);break //back
+				case 1: menu=1;break //languages
+				case 2: room_goto(titleroom);break //exit
+			}
+		break
+		//settings
+		case 1:
+			switch(pos){
+				case 0: menu=2;break //lang
+				case 1: menu=3;break //vol
+				case 2: menu=4;break //video
+				case 3: menu=0;break //back
+			}
+		break
+		//lang
+		case 2:
+			switch(pos){
+				case 0: global.locale=LOCALE.EN;break //en
+				case 1: global.locale=LOCALE.DE;break //de
+				case 2: global.locale=LOCALE.JP;break //jp
+				case 3: menu=1;break //back
+			}
+		break
+		case 3: //vol
+			switch(pos){
+				case 0: aud_gain_master+=0.1;break //add vol
+				case 1: aud_gain_master-=0.1;break //min vol
+				case 2: menu=1;break //back
+			}
+			break
+		case 4: //video
+			switch(pos){
+				case 0: global.flscr=!global.flscr;break //fullscreen
+				case 1: menu=1;break //back
+				break
+			}
+			break
+		if level!=menu{pos=0} //correct length
+	}
+}
+op_length=array_length(option[menu])
+audio_master_gain(aud_gain_master*2)
