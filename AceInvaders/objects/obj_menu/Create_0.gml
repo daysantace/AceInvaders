@@ -1,12 +1,12 @@
 global.menu_active=false
-width = 384
-height = 320
+width = room_width/3
+height = room_height/3
 op_border = 8
 op_space = 16
 pos = 0
 aud_gain_master = 1
 // main
-option[0,0]="menu_start"
+option[0,0]="menu_close"
 option[0,1]="menu_settings"
 option[0,2]="menu_exit"
 // settings

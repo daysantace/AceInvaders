@@ -9,9 +9,6 @@ pos+=dn-up
 if up or dn{audio_play_sound(aud_menu_select,1,0)} 
 if pos>=op_length{pos=0}
 if pos<0{pos=op_length-1}
-if room != titleroom and menu == 0{
-	menu = 5
-}
 //use opts
 if ac{
 	var level = menu
