@@ -7,7 +7,7 @@ The versions listed below are the ones that are currently supported (this may ch
 
 |    Version     | Support Status |
 |----------------|----------------|
-| Pre-Alpha v1.0 |  Full Support  |
+| Pre-Alpha v1.x |  Full Support  |
 
 ## Reporting a Vulnerability
 
