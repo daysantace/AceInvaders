@@ -17,7 +17,7 @@ if ac{
 		//main
 		case 0:
 			switch(pos){
-				case 0: instance_deactivate_object(id);break //back
+				case 0: instance_deactivate_object(id);if room==playroom{menuon=false};break //back
 				case 1: menu=1;break //languages
 				case 2: room_goto(titleroom);break //exit
 			}

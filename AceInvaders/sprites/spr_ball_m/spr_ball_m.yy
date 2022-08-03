@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sprites",
-    "path": "folders/sprites.yy",
+    "name": "balls",
+    "path": "folders/sprites/balls.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ball_m",

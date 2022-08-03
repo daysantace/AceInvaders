@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sprites",
-    "path": "folders/sprites.yy",
+    "name": "enemies",
+    "path": "folders/sprites/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enm_dane",
