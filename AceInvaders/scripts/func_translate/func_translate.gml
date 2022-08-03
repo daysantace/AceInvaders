@@ -17,7 +17,8 @@ function text(key)
 	if(global.translations[?key]!=undefined){
 		var textwrite=global.locdata[#1+global.locale,global.translations[?key]]
 		var a=argument_count>1?argument[1]:""
-		textwrite = string_replace_all(textwrite,"{a}", a)
+		textwrite = string_replace_all(textwrite,"{a}",a)
+		textwrite = string_replace_all(textwrite,"{b}",a)
 	}else{var textwrite=key}
 	return textwrite
 }

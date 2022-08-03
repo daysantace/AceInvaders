@@ -1,6 +1,9 @@
+key,en,de,ja
+
 system_loading,Loading...,Lädt...,読み込んでいます...
 
 menu_version,Pre-Alpha v{a},Pre-Alpha v{a},プレアルファv{a}
+menu_patch_ver,Snapshot {a},Snapshot {a},スナップショット{a}
 menu_start,Play,Spielen,スタート
 menu_back,Back,Zurück,戻る
 menu_exit,Exit,Beenden,終了
