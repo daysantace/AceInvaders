@@ -15,7 +15,7 @@ If a merge conflict rises, please independently resolve it with the branch you w
 Google it. Internet has been out for 30 years, give or take. <br>
 
 ### I just want to translate.
-You can edit the `.csv` file containing all the translations, download it, edit it, and then push it back to here.<br>
+You can edit the `.csv` file containing all the translations. Download it, edit it, and then push it back to here.<br>
 File path is `(working dir)/AceInvaders/datafiles/localisation.csv`. Do not change the `.ttf`, it's a font.<br>
 Please open the file in a plaintext editor. It seems to break down in fancy editors like Excel. Google Sheets seems to work, however, but the process to open the `.csv` is slower than just opening it in Notepad (or your preferred plaintext editor)
 
