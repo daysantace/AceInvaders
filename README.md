@@ -14,7 +14,7 @@ If a merge conflict rises, please independently resolve it with the branch you w
 
 ### OK, but how do I pull the repo to my computer?
 There's quite a few ways, and the README cannot cover all ways.<br>
-Here's some resources depending on your Git application.
+Here's some resources depending on your Git application.<br>
 [**GitHub Desktop**](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)<br>
 [**Git Bash**](https://github.com/git-guides/git-clone)<br>
 If your program is not listed, you can search the web for it.
