@@ -38,6 +38,11 @@ Of course, programming is the main work required in Ace Invaders.<br>
 Programming help would be greatly appreciated.<br>
 Ace Invaders is developed in GameMaker Language. Use that for programming.<br>
 
+#### Need music?
+Music composition and SFX are needed for the auditory section of a game.
+Composing music is another way you can contribute.<br>
+Please remember that this is a "retro" game, so please use chiptune music (such as the buzzing noises in older (~ <1990) games)
+
 #### I can't do any of these, but I still want to help.
 If you can't do any of these, there are few things you can do.<br>
 Many people do not realise it, but sharing a game is extremely helpful, especially in indie titles like Ace Invaders.<br>
@@ -45,7 +50,10 @@ Spread the word of this if you can!<br>
 <br>
 If you can do a mix of these, that would also be helpful to development, but no pressure.
 
-## I've spotted a bug!
+### I've spotted a bug!
 We allow you to report and fix bugs using the Issues tab on our GitHub page.<br>
 Please mark all issues with "unevaluated" when submitting your report, otherwise it will be reported as invalid.<br>
 Note that all issues cannot be fixed in an update, but we will try our best to fix them.
+
+## Credits
+@daysantace - Designer, programmer, artist, composer
