@@ -56,4 +56,4 @@ Please mark all issues with "unevaluated" when submitting your report, otherwise
 Note that all issues cannot be fixed in an update, but we will try our best to fix them.
 
 ## Credits
-@daysantace - Designer, programmer, artist, composer
+[@daysantace](https://github.com/daysantace) - Designer, programmer, artist, composer
