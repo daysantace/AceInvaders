@@ -2,18 +2,32 @@
 A ridiculous game about shooting things as other things.<br>
 Pre-Alpha v1.1 in development<br>
 
+## Building
+As of present, we do not have a license for GameMaker Studio 2.<br>
+To compile and build the current versions of Ace Invaders, you must install GameMaker Studio 2.<br>
+Download one of the `.yyz` files (or the current source code) and open with GameMaker Studio 2.<br>
+The project should open. You can press the "run" button, or press F5 on your keyboard.<br>
+Ace Invaders should compile. If you encounter a runtime error or bug while playing, refer to the "I've spotted a bug!" in this README.
+
 ## Contribution
 Because Ace Invaders is an open-source game, you may contribute to it. What you need to contribute to it is:
-> Some Git application (like GitHub Desktop)<br>
-> GameMaker Studio 2 (version 2.3.3+)<br>
-> A browser<br>
+#### Git
+[**Install (GitHub Desktop)**](https://desktop.github.com/) | [**(Git Bash)**](https://git-scm.com/downloads)<br>
+You can use any Git application, but we reccommend either GitHub Desktop or Git Bash for their ease of use.<br>
+Git is the source control management software for GitHub, and thus Ace Invaders. To be able to pull Ace Invaders to your computer and push it back to GitHub, you must use Git.<br>
+**Do not use GameMaker Studio 2's built-in source control!**
 
+#### GameMaker Studio 2
+[**Install**](https://accounts.yoyogames.com/downloads)
+GameMaker Studio 2 is the software that is used to develop Ace Invaders.<br>
+Please note you will need a YoYo Games account to download it.<br>
+<br>
 We currently accept any ideas into Ace Invaders. If you have an idea, you can add it in!<br>
 Please pull the repo to your PC first before making edits locally, and then push to the main repo once done.<br>
 If a merge conflict rises, please independently resolve it with the branch you wish to merge to. If the two branches cannot be resolved properly, the older branch will take priority.<br>
 
 ### OK, but how do I pull the repo to my computer?
-There's quite a few ways, and the README cannot cover all ways.<br>
+There's quite a few ways, and the README cannot cover all of them.<br>
 Here's some resources depending on your Git application.<br>
 [**GitHub Desktop**](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)<br>
 [**Git Bash**](https://github.com/git-guides/git-clone)<br>
@@ -57,3 +71,5 @@ Note that all issues cannot be fixed in an update, but we will try our best to f
 
 ## Credits
 [@daysantace](https://github.com/daysantace) - Designer, programmer, artist, composer
+
+For license, refer to `LICENSE.MD` in this repo.
