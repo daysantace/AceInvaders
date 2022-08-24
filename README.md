@@ -8,7 +8,9 @@ To compile and build the current versions of Ace Invaders, you must install Game
 Download one of the `.yyz` files (or the current source code) and open with GameMaker Studio 2.<br>
 The project should open. You can press the "run" button, or press F5 on your keyboard.<br>
 Ace Invaders should compile. If you encounter a runtime error or bug while playing, refer to the "I've spotted a bug!" in this README.
-
+### For Linux users
+Unfortunately, GameMaker Studio 2 does not exist for Linux. Wine cannot run GameMaker Studio 2, so you will need a virtual machine running Windows to compile.<br>
+YoYo Games is developing a port for Debian (incl. Debian based distros, such as Ubuntu, Pop!_OS, and Mint). It is still in beta, and cannot compile Ace Invaders (tested on Mint 21 Xfce).
 ## Contribution
 Because Ace Invaders is an open-source game, you may contribute to it. What you need to contribute to it is:
 #### Git
@@ -33,6 +35,10 @@ Here's some resources depending on your Git application.<br>
 [**Git Bash**](https://github.com/git-guides/git-clone)<br>
 If your program is not listed, you can search the web for it.
 
+### For Linux users
+Neither GitHub Desktop or GameMaker Studio 2 are avaliable for Linux as of writing.<br>
+As mentioned above, there is a beta version of GameMaker Studio 2 for Debian based distros. However, it cannot compile Ace Invaders, so you need a virtual machine running Windows.<br>
+There is an unofficial port for GitHub Desktop, but it is not officially supported. You should use another Git application like Git Bash.
 ### Contributing
 There are a few things you can do to contribute to Ace Invaders.
 
