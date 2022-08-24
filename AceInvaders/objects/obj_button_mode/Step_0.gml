@@ -4,5 +4,6 @@ if crsm == 1 and mouse_check_button_pressed(mb_left){
 	switch(bid){
 		case 0: room_goto(playroom);break;
 		case 1: instance_create_depth(room_width/3,room_height/3,-1,obj_menu);break;
+		case 2: room_goto(gacharoom);break;
 	}
 }

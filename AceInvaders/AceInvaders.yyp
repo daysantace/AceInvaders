@@ -22,6 +22,7 @@
     {"id":{"name":"aud_menu_confirm","path":"sounds/aud_menu_confirm/aud_menu_confirm.yy",},"order":0,},
     {"id":{"name":"spr_ball_m","path":"sprites/spr_ball_m/spr_ball_m.yy",},"order":1,},
     {"id":{"name":"spr_button_play","path":"sprites/spr_button_play/spr_button_play.yy",},"order":9,},
+    {"id":{"name":"gacharoom","path":"rooms/gacharoom/gacharoom.yy",},"order":4,},
     {"id":{"name":"titleroom","path":"rooms/titleroom/titleroom.yy",},"order":1,},
     {"id":{"name":"mainroom","path":"rooms/mainroom/mainroom.yy",},"order":2,},
     {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},"order":13,},
@@ -57,6 +58,7 @@
     {"roomId":{"name":"titleroom","path":"rooms/titleroom/titleroom.yy",},},
     {"roomId":{"name":"playroom","path":"rooms/playroom/playroom.yy",},},
     {"roomId":{"name":"mainroom","path":"rooms/mainroom/mainroom.yy",},},
+    {"roomId":{"name":"gacharoom","path":"rooms/gacharoom/gacharoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/sprites.yy","order":0,"resourceVersion":"1.0","name":"sprites","tags":[],"resourceType":"GMFolder",},
