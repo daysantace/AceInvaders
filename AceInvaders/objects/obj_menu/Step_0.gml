@@ -55,6 +55,7 @@ if ac{
 			}
 			break
 		if level!=menu{pos=0} //correct length
+		pos = 0
 	}
 }
 op_length=array_length(option[menu])
