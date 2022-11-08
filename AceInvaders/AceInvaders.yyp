@@ -83,7 +83,8 @@
   ],
   "IncludedFiles": [
     {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"localisation.csv","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"font_lat_jp.ttf","resourceType":"GMIncludedFile",},
+    {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"font_lat_jp.ttf","resourceType":"GMIncludedFile",},
+    {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"ballInfo.csv","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.3.0.625",

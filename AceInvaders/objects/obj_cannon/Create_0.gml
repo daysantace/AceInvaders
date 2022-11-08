@@ -1,7 +1,6 @@
-ball_id = 0 //cannon type
-bullet_id = obj_ball_ace //bullet type
-bullet_amt = 1 //bullet amount
-cann_height = 68 //bullet spawn offset (stop bullet from bottom)
-bullet_spray = 0 //bullet x offset
-fire_cooldown = 30 //cooldown for shooting
-can_fire = true //bool for cooldown
+///  @desc setup for the appearance and funcs to dry
+global.ballID = 0
+ballInfoTmp=load_csv("ballInfo.csv")
+sprite_index=ds_grid_get(ballInfoTmp,global.ballID,1)
+bulletID=ds_grid_get(ballInfoTmp,global.ballID,2)
+layerid=layer_get_id("player_inst")
