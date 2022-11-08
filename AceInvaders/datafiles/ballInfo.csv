@@ -1,4 +1,4 @@
 id,cannon,ball
-0,spr_cannon_ace,obj_ball_m
-1,spr_cannon_bi,obj_ball_s
-2,spr_cannon_nb,obj_ball_bee
+0,spr_cannon_ace,obj_ball_m,ball_ace
+1,spr_cannon_bi,obj_ball_s,ball_bi
+2,spr_cannon_nb,obj_ball_bee,ball_nb
