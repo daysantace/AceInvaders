@@ -1,6 +1,6 @@
 # Ace Invaders
 A ridiculous game about shooting things as other things.<br>
-Pre-Alpha v1.1 in development<br>
+Development ongoing.
 
 ## Building
 As of present, we do not have a license for GameMaker Studio 2.<br>
@@ -23,6 +23,7 @@ Git is the source control management software for GitHub, and thus Ace Invaders.
 [**Install**](https://accounts.yoyogames.com/downloads)
 GameMaker Studio 2 is the software that is used to develop Ace Invaders.<br>
 Please note you will need a YoYo Games account to download it.<br>
+It is, in theory, possible to develop without GameMaker Studio 2, but you will not be able to access some features like sprite editing or testing if you use a standard code editor or IDE (such as Visual Studio Code).
 <br>
 We currently accept any ideas into Ace Invaders. If you have an idea, you can add it in!<br>
 Please pull the repo to your PC first before making edits locally, and then push to the main repo once done.<br>
@@ -37,15 +38,17 @@ If your program is not listed, you can search the web for it.
 
 ### For Linux users
 Neither GitHub Desktop or GameMaker Studio 2 are avaliable for Linux as of writing.<br>
-As mentioned above, there is a beta version of GameMaker Studio 2 for Debian based distros. However, it cannot compile Ace Invaders, so you need a virtual machine running Windows.<br>
+There is a beta version of GameMaker Studio 2 for Debian based distros. However, it cannot compile Ace Invaders, so you need a virtual machine running Windows.<br>
 There is an unofficial port for GitHub Desktop, but it is not officially supported. You should use another Git application like Git Bash.
+
 ### Contributing
 There are a few things you can do to contribute to Ace Invaders.
 
 #### I just want to translate.
 You can edit the `.csv` file containing all the translations. Download it, edit it, and then push it back to here.<br>
 File path is `(working dir)/AceInvaders/datafiles/localisation.csv`. Do not change the `.ttf`, it's a font.<br>
-Please open the file in a plaintext editor. It seems to break down in fancy editors like Excel. Google Sheets seems to work, however, but the process to open the `.csv` is slower than just opening it in Notepad (or your preferred plaintext editor)
+Please open the file in a plaintext editor. It seems to break down in fancy editors like Excel. Google Sheets seems to work, however, but the process to open the `.csv` is slower than just opening it in Notepad (or your preferred plaintext editor).<br>
+If there is a translation error then you should fix it.
 
 #### I can do art. How can I help?
 Like with translation, you don't need to necessarily know how to program to contribute to Ace Invaders.<br>
