@@ -20,12 +20,11 @@ Git is the source control management software for GitHub, and thus Ace Invaders.
 **Do not use GameMaker Studio 2's built-in source control!**
 
 #### GameMaker Studio 2
-[**Install**](https://accounts.yoyogames.com/downloads)
+[**Install**](https://accounts.yoyogames.com/downloads)<br>
 GameMaker Studio 2 is the software that is used to develop Ace Invaders.<br>
 Please note you will need a YoYo Games account to download it.<br>
 It is, in theory, possible to develop without GameMaker Studio 2, but you will not be able to access some features like sprite editing or testing if you use a standard code editor or IDE (such as Visual Studio Code).
 <br>
-We currently accept any ideas into Ace Invaders. If you have an idea, you can add it in!<br>
 Please pull the repo to your PC first before making edits locally, and then push to the main repo once done.<br>
 If a merge conflict rises, please independently resolve it with the branch you wish to merge to. If the two branches cannot be resolved properly, the older branch will take priority.<br>
 
@@ -77,6 +76,11 @@ If you can do a mix of these, that would also be helpful to development, but no 
 We allow you to report and fix bugs using the Issues tab on our GitHub page.<br>
 Please mark all issues with "unevaluated" when submitting your report, otherwise it will be reported as invalid.<br>
 Note that all issues cannot be fixed in an update, but we will try our best to fix them.
+
+### I have an idea!
+You can suggest ideas either by adding them in directly in a pull request, or through the Issues tab.<br>
+Note that the terminology in the tags will refer to the issue not being in Ace Invaders as a bug.<br>
+For example, "fixing" means adding, "working" means it's already added, etc.<br>
 
 ## Credits
 [@daysantace](https://github.com/daysantace) - Designer, programmer, artist, composer
