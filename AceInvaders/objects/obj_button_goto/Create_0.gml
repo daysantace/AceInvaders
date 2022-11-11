@@ -1,1 +1,1 @@
-buttonID = buttonID
+buttonText = 0

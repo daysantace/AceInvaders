@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button_gacha",
-    "path": "sprites/spr_button_gacha/spr_button_gacha.yy",
+    "name": "spr_button_back",
+    "path": "sprites/spr_button_back/spr_button_back.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_button_gacha",
+  "name": "obj_button_back",
   "tags": [],
   "resourceType": "GMObject",
 }
