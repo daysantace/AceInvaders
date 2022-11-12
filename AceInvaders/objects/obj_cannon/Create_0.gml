@@ -3,8 +3,8 @@
 global.ballID = 0
 
 ballInfo=load_csv("ballInfo.csv")
-show_debug_message(ds_grid_get(ballInfo,global.ballID+1,2))
-sprite_index=asset_get_index(ds_grid_get(ballInfo,global.ballID+1,0))
+show_debug_message(ds_grid_get(ballInfo,2,global.ballID))
+sprite_index=asset_get_index(ds_grid_get(ballInfo,1,global.ballID))
 bulletID=asset_get_index(ds_grid_get(ballInfo,global.ballID+1,2))
 layerid=layer_get_id("player_inst")
 

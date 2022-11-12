@@ -4,3 +4,5 @@ if room == playroom{
 	spawnlayer = layer_get_id("enemy_inst")
 }
 menuon=false
+fpsModded = 0
+alarm[1] = room_speed

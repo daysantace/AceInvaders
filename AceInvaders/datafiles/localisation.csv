@@ -1,34 +1,35 @@
 key,en,de,ja
 
-system_loading,Loading...,Lädt...,読み込んでいます...
+system_loading,Loading...,Lädt...
 
-menu_version,Pre-Alpha v{a},Pre-Alpha v{a},プレアルファv{a}
-menu_patch_ver,Snapshot {a},Snapshot {a},スナップショット{a}
-menu_start,Play,Spielen,スタート
-menu_back,Back,Zurück,戻る
-menu_exit,Exit,Beenden,終了
-menu_settings,Settings,Einstellungen,設定
-menu_close,Close,Schließe,閉ぜ
-menu_gacha,Gacha,-,-
+menu_version,Pre-Alpha v{a},Pre-Alpha v{a}
+menu_patch_ver,Snapshot {a},Snapshot {a}
+menu_commit_ver,Commit {a},-
+menu_start,Play,Spielen
+menu_back,Back,Zurück
+menu_exit,Exit,Beenden
+menu_settings,Settings,Einstellungen
+menu_close,Close,Schließe
+menu_gacha,Gacha,-
 
-menu_lang,Language [A/文],Sprache [A/文],言語 [A/文]
-menu_lang_en,English,English,English
-menu_lang_de,Deutsch,Deutsch,Deutsch
-menu_lang_jp,日本語,日本語,日本語
+menu_lang,Language [A/文],Sprache [A/文]
+menu_lang_en,English,English
+menu_lang_de,Deutsch,Deutsch
 
-menu_audio,Audio,Audio,オーディオ
-menu_audio_master_+,Volume +,Lautstärke +,ボリューム+
-menu_audio_master_-,Volume -,Lautstärke -,ボリューム-
+menu_audio,Audio,Audio
+menu_audio_master_+,Volume +,Lautstärke +
+menu_audio_master_-,Volume -,Lautstärke -
 
-menu_video,Video,Video,ビデオ
-menu_video_fullscreen,Fullscreen,Vollbild,フルスクリーン
+menu_video,Video,Video
+menu_video_fullscreen,Fullscreen,Vollbild
+menu_video_fps,Toggle FPS,-
 
-menu_game_home,Return to title,Zurück zum Titel,タイトルに戻る
+menu_game_home,Return to title,Zurück zum Titel
 
-gamemode_endless,Endless,Endlos,エンドレス
+gamemode_endless,Endless,Endlos
 
 
 
-cannon_ace,Ace cannon,-,-
-cannon_bi,Bi cannon,-,-
-cannon_nb,Enby cannon,-,-
+cannon_ace,Ace cannon,-
+cannon_bi,Bi cannon,-
+cannon_nb,Enby cannon,-

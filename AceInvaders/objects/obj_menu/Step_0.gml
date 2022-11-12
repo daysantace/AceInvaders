@@ -11,7 +11,6 @@ if pos>=op_length{pos=0}
 if pos<0{pos=op_length-1}
 //use opts
 if ac{
-	var level = menu
 	audio_play_sound(aud_menu_confirm,1,0)
 	switch(menu){
 		//settings
@@ -27,8 +26,7 @@ if ac{
 			switch(pos){
 				case 0: global.locale=LOCALE.EN;break //en
 				case 1: global.locale=LOCALE.DE;break //de
-				case 2: global.locale=LOCALE.JP;break //jp
-				case 3: menu=0;break //back
+				case 2: menu=0;break //back
 			}
 		break
 		case 2: //vol
@@ -41,7 +39,8 @@ if ac{
 		case 3: //video
 			switch(pos){
 				case 0: global.flscr=!global.flscr;break //fullscreen
-				case 1: menu=0;break //back
+				case 1: global.fpsEnabled=!global.fpsEnabled;break // toggle fps
+				case 2: menu=0;break //back
 				break
 			}
 			break

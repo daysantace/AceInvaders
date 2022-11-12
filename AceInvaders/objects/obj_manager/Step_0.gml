@@ -9,3 +9,4 @@ if room == playroom{
 }
 if keyboard_check_pressed(vk_f11){global.flscr=!global.flscr}
 window_set_fullscreen(global.flscr)
+

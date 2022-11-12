@@ -13,15 +13,15 @@ option[0,2]="menu_video"
 // langs
 option[1,0]="menu_lang_en"
 option[1,1]="menu_lang_de"
-option[1,2]="menu_lang_jp"
-option[1,3]="menu_back"
+option[1,2]="menu_back"
 // audio
 option[2,0]="menu_audio_master_+"
 option[2,1]="menu_audio_master_-"
 option[2,2]="menu_back"
 //video
 option[3,0]="menu_video_fullscreen"
-option[3,1]="menu_back"
+option[3,1]="menu_fps"
+option[3,2]="menu_back"
 
 menu=0
 op_length=array_length(option[menu])
