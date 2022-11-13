@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sprites",
-    "path": "folders/sprites.yy",
+    "name": "buttons",
+    "path": "folders/sprites/buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_button_play",

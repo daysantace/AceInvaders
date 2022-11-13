@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button_gamemode_endless",
-    "path": "sprites/spr_button_gamemode_endless/spr_button_gamemode_endless.yy",
+    "name": "spr_gacha_capsule_s",
+    "path": "sprites/spr_gacha_capsule_s/spr_gacha_capsule_s.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_button_gamemode",
+  "name": "obj_gacha",
   "tags": [],
   "resourceType": "GMObject",
 }
