@@ -1,5 +1,5 @@
-0,spr_cannon_ace,obj_ball_ace,ball_ace,1,s
-1,spr_cannon_bi,obj_ball_bi,ball_bi,1.2,s
-2,spr_cannon_nb,obj_ball_nb,ball_nb,2.4,s
-3,spr_cannon_gay,obj_ball_gay,ball_gay,1.2,s
-4,spr_cannon_pan,obj_ball_pan,ball_pan,2.4,s
+0,spr_cannon_ace,obj_ball_ace,ball_ace,1,s,0
+1,spr_cannon_bi,obj_ball_bi,ball_bi,1.2,s,0
+2,spr_cannon_nb,obj_ball_nb,ball_nb,2.4,s,0
+3,spr_cannon_gay,obj_ball_gay,ball_gay,1.2,s,0
+4,spr_cannon_pan,obj_ball_pan,ball_pan,2.4,s,0
