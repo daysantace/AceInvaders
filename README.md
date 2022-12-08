@@ -2,14 +2,21 @@
 A ridiculous game about shooting things as other things.<br>
 Development ongoing.
 
-## Building
-As of present, we do not have a license for GameMaker Studio 2.<br>
-To compile and build the current versions of Ace Invaders, you must install GameMaker Studio 2.<br>
-Download one of the `.yyz` files (or the current source code) and open with GameMaker Studio 2.<br>
+## Installation
+As of present, we do not have a license for GameMaker: Studio 2.<br>
+To compile and build the current versions of Ace Invaders, you must install GameMaker: Studio 2.<br>
+Download one of the `.yyz` files (or the current source code) and open with GameMaker: Studio 2.<br>
 The project should open. You can press the "run" button, or press F5 on your keyboard.<br>
 Ace Invaders should compile. If you encounter a runtime error or bug while playing, refer to the "I've spotted a bug!" in this README.
+### System requirements
+Note - if you are compiling the source code directly with GameMaker: Studio 2, then you should consult its [minimum requirements](https://help.yoyogames.com/hc/en-us/articles/360002406417-Technical-Setup-Info#System%20Requirements).<br>
+Additionaly, if you are running Ace Invaders on quite literally any modern OS, then their minimum requirements would be higher than Ace Invaders. It's not a resource-intensive game.<br>
+These are not properly tested but rather calculated by measuring utilisation from Task Manager on an Acer Aspire F-15.<br>
+<br>
+* RAM - 64MB
+* CPU - Intel Core 2 Duo E8200 or equivelant
 ### For Linux users
-Unfortunately, GameMaker Studio 2 does not exist for Linux. Wine cannot run GameMaker Studio 2, so you will need a virtual machine running Windows to compile.<br>
+Unfortunately, GameMaker: Studio 2 does not exist for Linux. Wine cannot run GameMaker: Studio 2, so you will need a virtual machine running Windows to compile.<br>
 YoYo Games is developing a port for Debian (incl. Debian based distros, such as Ubuntu, Pop!_OS, and Mint). It is still in beta, and cannot compile Ace Invaders (tested on Mint 21 Xfce).
 ## Contribution
 Because Ace Invaders is an open-source game, you may contribute to it. What you need to contribute to it is:
@@ -17,13 +24,13 @@ Because Ace Invaders is an open-source game, you may contribute to it. What you 
 [**Install (GitHub Desktop)**](https://desktop.github.com/) | [**(Git Bash)**](https://git-scm.com/downloads)<br>
 You can use any Git application, but we reccommend either GitHub Desktop or Git Bash for their ease of use.<br>
 Git is the source control management software for GitHub, and thus Ace Invaders. To be able to pull Ace Invaders to your computer and push it back to GitHub, you must use Git.<br>
-**Do not use GameMaker Studio 2's built-in source control!**
+**Do not use GameMaker: Studio 2's built-in source control!**
 
-#### GameMaker Studio 2
+#### GameMaker: Studio 2
 [**Install**](https://accounts.yoyogames.com/downloads)<br>
-GameMaker Studio 2 is the software that is used to develop Ace Invaders.<br>
+GameMaker: Studio 2 is the software that is used to develop Ace Invaders.<br>
 Please note you will need a YoYo Games account to download it.<br>
-It is, in theory, possible to develop without GameMaker Studio 2, but you will not be able to access some features like sprite editing or testing if you use a standard code editor or IDE (such as Visual Studio Code).
+It is, in theory, possible to develop without GameMaker: Studio 2, but you will not be able to access some features like sprite editing or testing if you use a standard code editor or IDE (such as Visual Studio Code).
 <br>
 Please pull the repo to your PC first before making edits locally, and then push to the main repo once done.<br>
 If a merge conflict rises, please independently resolve it with the branch you wish to merge to. If the two branches cannot be resolved properly, the older branch will take priority.<br>
@@ -36,8 +43,8 @@ Here's some resources depending on your Git application.<br>
 If your program is not listed, you can search the web for it.
 
 ### For Linux users
-Neither GitHub Desktop or GameMaker Studio 2 are avaliable for Linux as of writing.<br>
-There is a beta version of GameMaker Studio 2 for Debian based distros. However, it cannot compile Ace Invaders, so you need a virtual machine running Windows.<br>
+Neither GitHub Desktop or GameMaker: Studio 2 are avaliable for Linux as of writing.<br>
+There is a beta version of GameMaker: Studio 2 for Debian based distros. However, it cannot compile Ace Invaders, so you need a virtual machine running Windows.<br>
 There is an unofficial port for GitHub Desktop, but it is not officially supported. You should use another Git application like Git Bash.
 
 ### Contributing

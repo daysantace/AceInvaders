@@ -3,17 +3,16 @@ global.ticketDepped = 1
 // gacha decide
 if position_meeting(mouse_x,mouse_y,id)
 {
-	show_debug_message("A")
-	if mouse_check_button_pressed(mb_left)
+	if mouse_check_button(mb_left) == true
 	{
 		show_debug_message("B")
 		
-		tickAmt = ini_read_real([resc],"sticket",0)
+		tickAmt = ini_read_real("resc","sticket",0)
 		ticketDepOffset = round(global.ticketDepped/3)+1
 		randIndexer = irandom_range(ticketDepOffset*-1,ticketDepOffset)
 		randIndexer = global.ticketDepped + randIndexer
 		tickWrite = tickAmt - global.ticketDepped
-		ini_write_real([mdata],"sticket",tickWrite)
+		ini_write_real("resc","sticket",tickWrite)
 		global.ticketDepped = 0
 	 
 		show_debug_message("C")
