@@ -13,8 +13,12 @@ Note - if you are compiling the source code directly with GameMaker: Studio 2, t
 Additionaly, if you are running Ace Invaders on quite literally any modern OS, then their minimum requirements would be higher than Ace Invaders. It's not a resource-intensive game.<br>
 These are not properly tested but rather calculated by measuring utilisation from Task Manager on an Acer Aspire F-15.<br>
 <br>
-* RAM - 64MB
+* RAM - 64 MB
 * CPU - Intel Core 2 Duo E8200 or equivelant
+* GPU - GeForce 6600 GT or equivelant
+* Storage - 500 MB avaliable
+These may increase over time as Ace Invaders' development goes on.<br>
+
 ### For Linux users
 Unfortunately, GameMaker: Studio 2 does not exist for Linux. Wine cannot run GameMaker: Studio 2, so you will need a virtual machine running Windows to compile.<br>
 YoYo Games is developing a port for Debian (incl. Debian based distros, such as Ubuntu, Pop!_OS, and Mint). It is still in beta, and cannot compile Ace Invaders (tested on Mint 21 Xfce).
