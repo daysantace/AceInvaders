@@ -1,10 +1,9 @@
 if gachaOpened{sprite_index=asset_get_index("spr_gacha_capsule_" + global.gachaSelect)}
 global.ticketDepped = 1
 // gacha decide
-if position_meeting(mouse_x,mouse_y,id)
-{
-	if mouse_check_button(mb_left) == true
-	{
+for(var i=0; i<4; i++){
+        if device_mouse_check_button(i, mb_left){
+                if point_in_rectangle( device_mouse_x(i), device_mouse_y(i), bbox_left, bbox_top, bbox_right, bbox_bottom){
 		show_debug_message("B")
 		
 		tickAmt = ini_read_real("resc","sticket",0)
@@ -39,6 +38,7 @@ if position_meeting(mouse_x,mouse_y,id)
 		
 		show_debug_message("F")
 		
-		ini_write_real("cannon",gachaGotYCheck,0)
+	 	ini_write_real("cannon",gachaGotYCheck,0)
+                }
 	}
 }
