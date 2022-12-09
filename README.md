@@ -17,6 +17,7 @@ These are not properly tested but rather calculated by measuring utilisation fro
 * CPU - Intel Core 2 Duo E8200 or equivelant
 * GPU - GeForce 6600 GT or equivelant
 * Storage - 500 MB avaliable
+
 These may increase over time as Ace Invaders' development goes on.<br>
 
 ### For Linux users
