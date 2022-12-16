@@ -1,6 +1,9 @@
 # Ace Invaders
 A ridiculous game about shooting things as other things.<br>
-Development ongoing.
+<br>
+**A note from @daysantace**
+Development is temporarily suspended as my 2015 craptop is on the brink of death. Hopefully will get a new one sometime in January.<br>
+This does not mean that __you__ cannot contribute to Ace Invaders, it just means that I personally cannot.
 
 ## Installation
 As of present, we do not have a license for GameMaker: Studio 2.<br>
@@ -22,7 +25,7 @@ These may increase over time as Ace Invaders' development goes on.<br>
 
 ### For Linux users
 Unfortunately, GameMaker: Studio 2 does not exist for Linux. Wine cannot run GameMaker: Studio 2, so you will need a virtual machine running Windows to compile.<br>
-YoYo Games is developing a port for Debian (incl. Debian based distros, such as Ubuntu, Pop!_OS, and Mint). It is still in beta, and cannot compile Ace Invaders (tested on Mint 21 Xfce).
+YoYo Games is developing a port for Debian (incl. Debian based distros, such as Ubuntu, Pop!_OS, and Mint). It is still in beta, and cannot compile Ace Invaders (tested on Linux Mint 21 Xfce).
 ## Contribution
 Because Ace Invaders is an open-source game, you may contribute to it. What you need to contribute to it is:
 #### Git
