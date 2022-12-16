@@ -1,7 +1,7 @@
 # Ace Invaders
 A ridiculous game about shooting things as other things.<br>
 <br>
-**A note from @daysantace**
+**A note from @daysantace**<br>
 Development is temporarily suspended as my 2015 craptop is on the brink of death. Hopefully will get a new one sometime in January.<br>
 This does not mean that __you__ cannot contribute to Ace Invaders, it just means that I personally cannot.
 
