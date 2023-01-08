@@ -14,18 +14,19 @@ Ace Invaders should compile. If you encounter a runtime error or bug while playi
 ### System requirements
 Note - if you are compiling the source code directly with GameMaker: Studio 2, then you should consult its [minimum requirements](https://help.yoyogames.com/hc/en-us/articles/360002406417-Technical-Setup-Info#System%20Requirements).<br>
 Additionaly, if you are running Ace Invaders on quite literally any modern OS, then their minimum requirements would be higher than Ace Invaders. It's not a resource-intensive game.<br>
-These are not properly tested but rather calculated by measuring utilisation from Task Manager on an Acer Aspire F-15.<br>
+These are not properly tested but rather calculated by measuring utilisation from Task Manager. It may not be fully accurate.<br>
 <br>
 * RAM - 64 MB
 * CPU - Intel Core 2 Duo E8200 or equivelant
 * GPU - GeForce 6600 GT or equivelant
-* Storage - 500 MB avaliable
+* Storage - 1 MB avaliable
 
-These may increase over time as Ace Invaders' development goes on.<br>
+These may (read: will) increase over time as Ace Invaders' development goes on.<br>
 
 ### For Linux users
-Unfortunately, GameMaker: Studio 2 does not exist for Linux. Wine cannot run GameMaker: Studio 2, so you will need a virtual machine running Windows to compile.<br>
-YoYo Games is developing a port for Debian (incl. Debian based distros, such as Ubuntu, Pop!_OS, and Mint). It is still in beta, and cannot compile Ace Invaders (tested on Linux Mint 21 Xfce).
+Unfortunately, GameMaker: Studio 2 does not have native support for Linux. However, Wine 4.10 (older versions will not work!) will be able to run GameMaker: Studio 2.<br>
+GameMaker: Studio only allows the compiling of a game to Ubuntu and Ubuntu-based distros (such as Mint, Pop!_OS, etc.)
+If you use Arch btw then you are unable to compile or run Ace Invaders, even if you install the standalone game.
 ## Contribution
 Because Ace Invaders is an open-source game, you may contribute to it. What you need to contribute to it is:
 #### Git
