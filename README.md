@@ -13,12 +13,11 @@ The project should open. You can press the "run" button, or press F5 on your key
 Ace Invaders should compile. If you encounter a runtime error or bug while playing, refer to the "I've spotted a bug!" in this README.
 ### System requirements
 Note - if you are compiling the source code directly with GameMaker: Studio 2, then you should consult its [minimum requirements](https://help.yoyogames.com/hc/en-us/articles/360002406417-Technical-Setup-Info#System%20Requirements).<br>
-Additionaly, if you are running Ace Invaders on quite literally any modern OS, then their minimum requirements would be higher than Ace Invaders. It's not a resource-intensive game.<br>
-These are not properly tested but rather calculated by measuring utilisation from Task Manager. It may not be fully accurate.<br>
+These are not properly tested but rather calculated by measuring utilisation from Task Manager. It may not be fully accurate, however, relatively soon, this will be slightly more accurate.<br>
 <br>
 * RAM - 64 MB
-* CPU - Intel Core 2 Duo E8200 or equivelant
-* GPU - GeForce 6600 GT or equivelant
+* CPU - Intel Core 2 Duo E8400 or equivalent
+* GPU - GeForce 6600 GT or equivalent
 * Storage - 1 MB avaliable
 
 These may (read: will) increase over time as Ace Invaders' development goes on.<br>
@@ -26,12 +25,13 @@ These may (read: will) increase over time as Ace Invaders' development goes on.<
 ### For Linux users
 Unfortunately, GameMaker: Studio 2 does not have native support for Linux. However, Wine 4.10 (older versions will not work!) will be able to run GameMaker: Studio 2.<br>
 GameMaker: Studio only allows the compiling of a game to Ubuntu and Ubuntu-based distros (such as Mint, Pop!_OS, etc.)
-If you use Arch btw then you are unable to compile or run Ace Invaders, even if you install the standalone game.
+YoYo Games does not officially support Arch, Fedora, or any other non-Ubuntu-based distro.
+Before running, you will need to install two dependencies: `libcurl4` and `libopenal1`. If you do not have these then Ace Invaders will not be able to run.
 ## Contribution
 Because Ace Invaders is an open-source game, you may contribute to it. What you need to contribute to it is:
 #### Git
 [**Install (GitHub Desktop)**](https://desktop.github.com/) | [**(Git Bash)**](https://git-scm.com/downloads)<br>
-You can use any Git application, but we reccommend either GitHub Desktop or Git Bash for their ease of use.<br>
+You can use any Git application, but we recommend either GitHub Desktop or Git Bash for their ease of use.<br>
 Git is the source control management software for GitHub, and thus Ace Invaders. To be able to pull Ace Invaders to your computer and push it back to GitHub, you must use Git.<br>
 **Do not use GameMaker: Studio 2's built-in source control!**
 
@@ -52,9 +52,11 @@ Here's some resources depending on your Git application.<br>
 If your program is not listed, you can search the web for it.
 
 ### For Linux users
-Neither GitHub Desktop or GameMaker: Studio 2 are avaliable for Linux as of writing.<br>
-There is a beta version of GameMaker: Studio 2 for Debian based distros. However, it cannot compile Ace Invaders, so you need a virtual machine running Windows.<br>
-There is an unofficial port for GitHub Desktop, but it is not officially supported. You should use another Git application like Git Bash.
+[**Installation guide (Windows on Wine)**](https://forum.gamemaker.io/index.php?threads/run-the-gms2-ide-on-ubuntu-19-04.64330/)<br>
+<<br>
+You can download the Windows version of GameMaker: Studio 2. You will need Wine 4.10 (otherwise it will not work) installed to run GameMaker: Studio 2 for Windows.<br>
+Alternatively, you can install a version of GameMaker: Studio 2 that runs natively on Ubuntu. Keep in mind that it is still in beta and that bugs may appear.<br>
+If you use Arch btw, Fedora, or any other non-Ubuntu based distro, then unfortunately you will not be able to get GameMaker: Studio 2 to run. [You can try this](https://forum.gamemaker.io/index.php?threads/running-gms2-beta-on-arch-linux-and-possibly-other-distros-too.88092/), but keep in mind that it is not supported by YoYo Games and is highly unstable.
 
 ### Contributing
 There are a few things you can do to contribute to Ace Invaders.
