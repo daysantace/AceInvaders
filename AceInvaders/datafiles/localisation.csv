@@ -1,33 +1,34 @@
-key,en,de,ja
+key,en
 
-system_loading,Loading...,Lädt...
+system_loading,Loading...
 
-menu_version,Pre-Alpha v{a},Pre-Alpha v{a}
-menu_patch_ver,Snapshot {a},Snapshot {a}
-menu_commit_ver,Commit {a},-
-menu_start,Play,Spielen
-menu_back,Back,Zurück
-menu_exit,Exit,Beenden
-menu_settings,Settings,Einstellungen
-menu_close,Close,Schließe
-menu_gacha,Gacha,-
+system_text_telemetry,Ace Invaders collects data about your system's hardware. You can change your decision later in Settings. No personal data is collected.
 
-menu_lang,Language [A/文],Sprache [A/文]
-menu_lang_en,English,English
-menu_lang_de,Deutsch,Deutsch
+menu_version,Pre-Alpha v{a}
+menu_patch_ver,Snapshot {a}
+menu_commit_ver,Commit {a}
+menu_start,Play
+menu_back,Back
+menu_exit,Exit
+menu_settings,Settings
+menu_close,Close
+menu_gacha,Gacha
+
+menu_lang,Language [A/文]
+menu_lang_en,English
 
 menu_audio,Audio,Audio
-menu_audio_master_+,Volume +,Lautstärke +
-menu_audio_master_-,Volume -,Lautstärke -
+menu_audio_master_+,Volume +
+menu_audio_master_-,Volume -
 
-menu_video,Video,Video
-menu_video_fullscreen,Fullscreen,Vollbild
-menu_video_fps,Toggle FPS,-
+menu_video,Video
+menu_video_fullscreen,Fullscreen
+menu_video_fps,Toggle FPS
 
-menu_game_home,Return to title,Zurück zum Titel
+menu_game_home,Return to title
 
-gamemode_endless,Endless,Endlos
-
+gamemode_endless,Endless
+gamemode_story,Story
 
 
 cannon_ace,Ace cannon,-
