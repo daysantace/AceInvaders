@@ -3,6 +3,7 @@ key,en
 system_loading,Loading...
 
 system_text_telemetry,Ace Invaders collects data about your system's hardware. You can change your decision later in Settings. No personal data is collected.
+system_text_gachalock,Gacha is a highly addictive game mechanic. By enabling this, you are disabling the ability to check or obtain new cannons.
 
 menu_version,Pre-Alpha v{a}
 menu_patch_ver,Snapshot {a}
