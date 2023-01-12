@@ -3,7 +3,17 @@ key,en
 system_loading,Loading...
 
 system_text_telemetry,Ace Invaders collects data about your system's hardware. You can change your decision later in Settings. No personal data is collected.
-system_text_gachalock,Gacha is a highly addictive game mechanic. By enabling this, you are disabling the ability to check or obtain new cannons.
+system_text_gachalock,Gacha is a highly addictive game mechanic. You are limited to ten gacha a day. You can view your cannons at any time.
+
+system_text_psettings_reflection,Enables/disables reflections. Reflections are typically the most GPU-intensive event, so disabling can help performance.
+system_text_psettings_glow,Enables/disables a soft glow around certain objects.
+system_text_psettings_multithread,Allows Ace Invaders to utilise multiple threads. This typically increases performance, but can be very laggy for Ace Invaders and the operating system, especially on dual- or quad-core systems.
+
+settings_performance_
+settings_performance_impacttxt,Performance impact: 
+settings_high,High
+settings_medium,Medium
+settings_low,Low
 
 menu_version,Pre-Alpha v{a}
 menu_patch_ver,Snapshot {a}
