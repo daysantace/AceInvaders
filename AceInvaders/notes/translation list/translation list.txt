@@ -1,3 +1,0 @@
-0 - english
-1 - german
-2 - japanese
