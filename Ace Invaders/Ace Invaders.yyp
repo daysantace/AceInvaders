@@ -1,14 +1,16 @@
 {
   "resources": [
     {"id":{"name":"sfx_menu_select","path":"sounds/sfx_menu_select/sfx_menu_select.yy",},"order":1,},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":2,},
     {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},"order":2,},
+    {"id":{"name":"create_menu_page","path":"scripts/create_menu_page/create_menu_page.yy",},"order":1,},
     {"id":{"name":"sfx_menu_confirm","path":"sounds/sfx_menu_confirm/sfx_menu_confirm.yy",},"order":0,},
     {"id":{"name":"rom_title","path":"rooms/rom_title/rom_title.yy",},"order":0,},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":1,},
-    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":2,},
     {"id":{"name":"spr_menubg","path":"sprites/spr_menubg/spr_menubg.yy",},"order":1,},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"order":0,},
-    {"id":{"name":"trans","path":"scripts/trans/trans.yy",},"order":0,},
+    {"id":{"name":"terminate","path":"scripts/terminate/terminate.yy",},"order":2,},
+    {"id":{"name":"text","path":"scripts/text/text.yy",},"order":0,},
     {"id":{"name":"spr_titlebg","path":"sprites/spr_titlebg/spr_titlebg.yy",},"order":0,},
     {"id":{"name":"rom_menu","path":"rooms/rom_menu/rom_menu.yy",},"order":1,},
     {"id":{"name":"spr_blankball","path":"sprites/spr_blankball/spr_blankball.yy",},"order":3,},

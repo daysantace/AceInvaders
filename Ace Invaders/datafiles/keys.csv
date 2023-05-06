@@ -1,17 +1,24 @@
 key,en
-
-default_text,Default text
+default_text,Text not found...
 
 version,Version Pre-Alpha 2.0
-
 start,Press any key to start
 
 play,Play
 settings,Settings
 exit,Exit
-
-set_language,Language
-set_performance,Performance and Graphics
+back,Back
 
 play_endless,Endless
 play_gacha,Gacha
+
+set_audio,Audio
+set_language,Language
+set_performance,Performance and Graphics
+set_controls,Controls
+
+aud_master,Master volume
+aud_sfx,Sound effects
+aud_bgm,Background music
+
+pef_

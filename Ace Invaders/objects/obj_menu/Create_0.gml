@@ -1,19 +1,51 @@
-c_bg = #480078
-c_mensel = #fcfc68
+// global vars
+global.pause		= true
+global.view_width   = camera_get_view_width(view_camera[0])
+global.view_height  = camera_get_view_height(view_camera[0])
+global.key_revert   = ord("X")
 
-button_h = 48
-button_w = 256
-button_padding = 8
+display_set_gui_size(global.view_width,global.view_height)
 
-menu_x = (room_width/2)
-menu_y = (room_height/2)-(button_h*2)
+//enum menu classes
+enum menu_page{
+	main,
+	play,
+	settings,
+	audio,
+	performance,
+	controls,
+	height
+}
 
-//buttons
-button[0] = text("play")
-button[1] = text("settings")
-button[2] = text("exit")
+enum menu_element_type{
+	script_runner,
+	page_transfer,
+	slider,
+	shift,
+	toggle,
+	input
+}
 
-buttons = array_length(button)
+// make menu pages
+ds_menu_main = create_menu_page(
+	[text("play"),menu_element_type.page_transfer,menu_page.play],
+	[text("settings"),menu_element_type.page_transfer,menu_page.settings],
+	[text("exit"),menu_element_type.script_runner,terminate]
+)
 
-menu_index = 0
-last_selected = 0
+ds_play = create_menu_page(
+	[text("play_endless"),menu_element_type.script_runner,gamestart("endless")],
+	[text("play_gacha"),menu_element_type.script_runner,gamestart("gacha")],
+	[text("back"),menu_element_type.page_transfer,menu_page.main],
+)
+
+ds_settings = create_menu_page(
+	[text("set_audio"),menu_element_type.page_transfer,menu_page.audio],
+	[text("set_language"),menu_element_type.page_transfer,menu_page.language],
+	[text("set_performance"),menu_element_type.page_transfer,menu_page.performance],
+	[text("set_controls"),menu_element_type.page_transfer,menu_page.controls],
+	[text("back"),menu_element_type.page_transfer,menu_page.main],
+)
+
+ds_audio = create_menu_page(
+	[text("
