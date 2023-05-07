@@ -1,9 +1,9 @@
 {
-  "hinting": 1,
+  "hinting": 0,
   "glyphOperations": 0,
-  "interpreter": 1,
+  "interpreter": 0,
   "pointRounding": 0,
-  "applyKerning": 1,
+  "applyKerning": 0,
   "fontName": "Madou Futo Maru Gothic",
   "styleName": "Regular",
   "size": 12.0,
@@ -13,7 +13,7 @@
   "AntiAlias": 0,
   "first": 0,
   "last": 0,
-  "sampleText": "abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefaul       character: ▯ (9647)",
+  "sampleText": "abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
   "includeTTF": false,
   "TTFName": "",
   "textureGroupId": {

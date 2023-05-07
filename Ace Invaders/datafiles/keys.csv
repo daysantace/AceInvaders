@@ -8,6 +8,8 @@ play,Play
 settings,Settings
 exit,Exit
 back,Back
+yes,Yes
+no,No
 
 play_endless,Endless
 play_gacha,Gacha
@@ -21,4 +23,12 @@ aud_master,Master volume
 aud_sfx,Sound effects
 aud_bgm,Background music
 
-pef_
+pef_glow,Show glow
+pef_fps,Show FPS
+pef_fullscreen,Fullscreen
+
+cnt_fire,Fire
+cnt_ability,Ability
+cnt_movement,Movement
+cnt_movement_arrow,Arrow keys
+cnt_movement_mouse,Mouse
