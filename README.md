@@ -1,8 +1,9 @@
 # Ace Invaders
 A ridiculous game about shooting things as other things.<br>
 <br>
-**A note from @daysantace** (7 May 2023)<br>
-Temporary hiatus as I revise for my exams - I'd rather do well in academia than work on funny gayme. Cya in a few weeks.
+**A note from @daysantace** (12 June 2023)<br>
+Another hiatus. God really does not want me to make this game.<br>
+Laptop crashes every 30 minutes and I'm not bothered to deal with that crap. And me mum keeps delaying the date of my new laptop.
 
 ## Installation
 As of present, we do not have a license for GameMaker: Studio 2.<br>
