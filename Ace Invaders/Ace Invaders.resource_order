@@ -1,0 +1,21 @@
+{
+  "FolderOrderSettings": [
+    {"name":"buttons","order":1,"path":"folders/assets/sprites/buttons.yy",},
+    {"name":"buttons","order":2,"path":"folders/objects/system/buttons.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"sfx_menu_select","order":1,"path":"sounds/sfx_menu_select/sfx_menu_select.yy",},
+    {"name":"obj_but_settings","order":2,"path":"objects/obj_but_settings/obj_but_settings.yy",},
+    {"name":"spr_button","order":1,"path":"sprites/spr_button/spr_button.yy",},
+    {"name":"obj_but_play","order":1,"path":"objects/obj_but_play/obj_but_play.yy",},
+    {"name":"spr_button_go","order":2,"path":"sprites/spr_button_go/spr_button_go.yy",},
+    {"name":"obj_title","order":1,"path":"objects/obj_title/obj_title.yy",},
+    {"name":"spr_button_settings_sel","order":5,"path":"sprites/spr_button_settings_sel/spr_button_settings_sel.yy",},
+    {"name":"spr_button_go_sel","order":3,"path":"sprites/spr_button_go_sel/spr_button_go_sel.yy",},
+    {"name":"spr_button_settings","order":4,"path":"sprites/spr_button_settings/spr_button_settings.yy",},
+    {"name":"rom_menu","order":1,"path":"rooms/rom_menu/rom_menu.yy",},
+    {"name":"fnt_main","order":1,"path":"fonts/fnt_main/fnt_main.yy",},
+    {"name":"spr_button_exit_sel","order":1,"path":"sprites/spr_button_exit_sel/spr_button_exit_sel.yy",},
+    {"name":"spr_blankball","order":2,"path":"sprites/spr_blankball/spr_blankball.yy",},
+  ],
+}

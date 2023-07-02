@@ -1,6 +1,8 @@
 # Ace Invaders
 A ridiculous game about shooting things as other things.<br>
 <br>
+[Kbin](https://kbin.social/m/aceinvaders)<br>
+[Discord](https://www.discord.com/invite/sxX3SZUWpz)<br>
 
 ## Installation
 As of present, we do not have a license for GameMaker: Studio 2.<br>
@@ -10,7 +12,7 @@ The project should open. You can press the "run" button, or press F5 on your key
 Ace Invaders should compile. If you encounter a runtime error or bug while playing, refer to the "I've spotted a bug!" in this README.
 ### System requirements
 Note - if you are compiling the source code directly with GameMaker: Studio 2, then you should consult its [minimum requirements](https://help.yoyogames.com/hc/en-us/articles/360002406417-Technical-Setup-Info#System%20Requirements).<br>
-These are not properly tested but rather calculated by measuring utilisation from Task Manager. It may not be fully accurate, however, relatively soon, this will be slightly more accurate.<br>
+These are not properly tested but rather calculated by measuring utilisation from HTop. It's probably inaccurate.<br>
 <br>
 * RAM - 64 MB
 * CPU - Intel Core 2 Duo E8400 or equivalent
@@ -50,10 +52,11 @@ If your program is not listed, you can search the web for it.
 
 ### For Linux users
 [**Installation guide (Windows on Wine)**](https://forum.gamemaker.io/index.php?threads/run-the-gms2-ide-on-ubuntu-19-04.64330/)<br>
-<<br>
+[**Installation guide (Native Ubuntu)**](https://help.yoyogames.com/hc/en-us/articles/235186168-Setting-Up-For-Ubuntu)<br><br>
 You can download the Windows version of GameMaker: Studio 2. You will need Wine 4.10 (otherwise it will not work) installed to run GameMaker: Studio 2 for Windows.<br>
-Alternatively, you can install a version of GameMaker: Studio 2 that runs natively on Ubuntu. Keep in mind that it is still in beta and that bugs may appear.<br>
-If you use Arch btw, Fedora, or any other non-Ubuntu based distro, then unfortunately you will not be able to get GameMaker: Studio 2 to run. [You can try this](https://forum.gamemaker.io/index.php?threads/running-gms2-beta-on-arch-linux-and-possibly-other-distros-too.88092/), but keep in mind that it is not supported by YoYo Games and is highly unstable.
+Alternatively, you can install a version of GameMaker: Studio 2 that runs natively on Ubuntu. Keep in mind that it is still in an early beta version and that bugs may appear.<br>
+If you use Arch btw, Fedora, or any other non-Ubuntu based distro, then unfortunately you will not be able to get GameMaker: Studio 2 to run. [You can try this](https://forum.gamemaker.io/index.php?threads/running-gms2-beta-on-arch-linux-and-possibly-other-distros-too.88092/), but keep in mind that it is not supported by YoYo Games and is likely to be unstable.<br>
+An unintended consequence of YoYo Games' lack of support for non-Ubuntu Linux is that binaries will likely never be compiled for these platforms.
 
 ### Contributing
 There are a few things you can do to contribute to Ace Invaders.

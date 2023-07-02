@@ -1,0 +1,14 @@
+// This is a debug save file. This comes bundled with Ace Invaders to help
+// development about savegames. This should not be used for regular gameplay.
+
+// general info
+type,"DEBUG"
+lang,"EN"
+tickets,0
+
+// ball id, unlocked, xp
+asex,1,0
+bisx,0,0
+enby,0,0
+
+// will add more later
